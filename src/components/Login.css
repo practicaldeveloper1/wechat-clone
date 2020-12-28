@@ -1,0 +1,39 @@
+.login__container {
+  background-color: #fffdfdf5;
+  padding: 100px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2), 0 0;
+  max-width: 350px;
+}
+
+.login__container > img {
+  object-fit: contain;
+  height: 100px;
+  margin-bottom: 40px;
+}
+
+.login__container button {
+  margin-top: 50px;
+  text-transform: inherit !important;
+  background-color: var(--color-primary);
+  color: white;
+}
+
+.login__container button:hover {
+  background-color: var(--color-primary);
+}
+
+.login__container > .login__text {
+  color: var(--color-primary);
+}
+
+.login__signup {
+  display: flex;
+  flex-direction: column;
+}
+
+.login__headerImage {
+  object-fit: contain;
+  height: 100px;
+}
